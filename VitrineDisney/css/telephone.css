@@ -1,0 +1,520 @@
+@media screen and (min-width:320px) and (max-width:769px)  {
+
+    .nav-pre-sticky a:hover {
+        background-color: white;
+        color: black;
+      }
+    nav {
+        height: 70px;
+        left: 0;
+        opacity: 1;
+        padding: 0 36px;
+        pointer-events: none;
+        position: fixed;
+        right: 0%;
+        top: 0;
+        transform: translateZ(0);
+        position: absolute;
+        z-index: 2;
+    }
+    .section03 picture img {
+        width: -webkit-fill-available;
+        height: auto;
+    }
+
+    nav,
+    nav ul {
+        align-items: center;
+        display: flex;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin-left: 0;
+        padding-left: 0;
+        text-indent: 0;
+        width: 100%;
+    }
+    
+
+    nav ul li a {
+        height: 50px;
+        max-width: 260px;
+        padding: 15px 20px;
+        border: 1px solid silver;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        background-color: rgb(0 0 0/ 0.5);
+        /* 50% transparent */
+    }   
+    .nav-pre-sticky:hover {
+        background-color: white;
+        color: black;      
+    }
+    
+
+    .nav-pre-sticky ul {
+        justify-content: flex-end;
+    }
+
+  
+
+    .navpost-sticky {
+        
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        z-index: 4;
+
+    }
+    .bounce-top{
+        position: relative;
+        width:6%;
+        top: 10px;
+        left: 20px;
+        margin-top: 30%;
+        color: white;
+    }
+    .arrow-down{
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    .navpost-sticky.show {
+        opacity: 1;
+        visibility: visible;
+        
+        background-color: #040714;
+    }
+
+    .nav-post-sticky {
+        background-color: rgb(48, 78, 227);
+        position: relative;
+
+
+    }
+
+    .nav-list {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .navpost-sticky li {
+        margin-left: 10px;
+        /* ou toute autre valeur que vous souhaitez pour l'espacement */
+    }
+
+    .imgdisneynav {
+        position: absolute;
+        left: 11px;
+        top: 10px;
+    }
+    .arrow-down{
+        animation: bounce2 2s ease infinite;
+      }
+      @keyframes bounce2 {
+          0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+          40% {transform: translateY(-15px);}
+          60% {transform: translateY(-30px);}
+      }
+    
+
+
+    .section-01 {
+        padding-bottom: 0px;
+        background-image: url(/img-disney-plus/background-disney-plus.png);
+        background-position: 90%;
+        background-position-y:2% ;
+        background-size: cover;
+        width: 100%;
+        margin-bottom: 90%;
+        height: 100vh;
+    }
+    
+
+
+    .div1 {
+        position: relative;
+        text-align: center;
+        left: 0%;
+        top: 80%;
+
+    }
+
+    h1 {
+        color: white;
+        font-size: 32px;
+        
+        font-family: Avenir, sans-serif;
+        line-height: normal;
+        line-height: 54px;
+        margin-bottom: 7%;
+
+    }
+    .div1 h1{
+        width: 100%;
+        font-size: 34px;
+        text-align: center;
+        margin-top: 27px;
+        color: white;
+        border-radius: 2PX;
+        border-color: white;
+
+    }
+    .div1 p{
+        width: 100%;
+        font-size: 19px;
+        text-align: center;
+        margin-bottom: 10%;
+        border-color: 1px white;
+        
+        
+
+
+    }
+
+    .casemail {
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: -38px;
+        left: 5%;
+
+    }
+
+    .buttonprimary {
+        width: 101%;
+        background-color: #036BF9;
+        margin-top: 10px;
+        color: white;
+        height: 60px;
+        font-size: 19px;
+        border-radius: 6px 6px 6px 6px;
+        border: none;
+    }
+
+    #email {
+        width: 100%;
+        border-radius: 4px 4px 4px 4px;
+        width: 100%;
+        background-color: #32343E;
+        height: 60px;
+        font-size: 25px;
+        border-style: none;
+        border: solid 1px grey;
+
+    }
+    .paragrapheacceuil{
+        margin-top: 6%;
+        padding-top: 68px;
+    }
+    
+
+
+    p {
+        margin-top: -2%;
+        font-size: 16px;
+        line-height: 30px;
+        font-family: Avenir, sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        
+       
+     
+    }
+
+    p {
+        color: grey;
+    }
+
+
+    .paragrapheacceuil {
+        padding-top: 35px;
+    }
+
+    nav {
+        position: fixed;
+    }
+  
+    .section02 {
+        padding-bottom: 80px;
+        background-image: url("/img-disney-plus/img-telephone.jpeg");
+    
+        background-position: 48%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 125vh;
+        padding: 0px 4px;
+        text-align: center;
+        color: white;
+        
+
+    }
+   
+    .section02 h1{
+        display: block;
+        padding-left: 5%;
+        padding-top: -91px;
+        font-size: 33px;
+        color: white;
+     
+        
+       
+    }
+    .section02 p{
+        letter-spacing: .2px;
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+
+      }
+
+    h3 {
+        color: white;
+    }
+   
+    body {
+        font-family: Avenir, sans-serif;
+        overflow-x: hidden;
+    }
+
+    .azerty {
+        text-align: center;
+        display: block;
+        margin: 3px;
+        font-size: 20px;
+        display: block;
+        bottom: 25PX;
+
+
+    }
+
+    .deux {
+
+        background-color: #050814;
+
+    }
+
+    .section03 {
+        display: block;
+        margin-bottom: 0%;
+        background-color: #050814;
+        background-size: cover;
+        background-position: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: .2px;
+     
+    }
+
+    .contenu {
+        font-size: 20px;
+    }
+
+    .bouton2 {
+        background: 0 0;
+        border: none;
+        cursor: pointer;
+        margin: 0;
+        padding: 24px;
+        text-align: inherit;
+        width: 100%;
+
+    }
+
+    .divquestion {
+        margin-top: 25px;
+        background-color: #13151d;
+
+    }
+    
+    .section04 {
+        padding: 5.6vw;
+    }
+
+    .questions {
+        color: white;
+        font-size: 40px
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .spanbouton {
+        font-size: 20px;
+        color: white;
+    }
+
+    body {
+        background-color: #030814;
+        letter-spacing: .2px;
+
+    }
+
+    .contenu {
+        display: none;
+        padding: 20px;
+    }
+
+    .visible {
+        display: block;
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .divquestion .bouton2 {
+        position: relative;
+        padding-right: 20px;
+    }
+
+    .divquestion .croix {
+        position: absolute;
+        top: 5;
+        right: 0;
+        padding: 0 10px;
+        cursor: pointer;
+        color: white;
+        font-size: 25px;
+    }
+
+    .divquestion .croix:before {
+        content: '';
+
+    }
+
+    .divquestion .bouton2.active .croix:before {
+        content: '';
+    }
+
+
+
+
+    .liste li img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    h3 {
+        font-size: 20px;
+
+    }
+
+    .liste {
+   
+        padding: 0;
+        list-style: none;
+        margin: 0px;
+        flex-wrap: no-wrap;
+      
+    }
+
+
+
+
+    
+
+    .liste li {
+        text-align: center;
+    margin: 1px;
+    width: 100%;
+
+
+
+    }
+
+    .liste li p {
+        font-size: 15px;
+        color: grey;
+
+    }
+
+    .center {
+        text-align: center;
+
+    }
+
+    .grid-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+
+
+    }
+
+    .grid-list li {
+
+        margin: 0px;
+        list-style-type: none;
+        width: 50%;
+    
+    }
+
+    .grid-list li img {
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    footer li {
+        list-style-type: none;
+
+        margin: 20px 120px 25px 58px;
+        color: grey;
+        margin: 10px;
+        
+      
+       
+
+    }
+
+    footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1;
+
+        box-sizing: border-box;
+
+    }
+
+    .text-fine {
+        text-align: center;
+        text-decoration: none;
+        color: grey;
+        font-size: 13px;
+
+    }
+
+    .imgfooter {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        width: 100%;
+       
+        font-size: 15px
+    }
+    
+    .languages{
+        background-color: #030814;
+        color: white;
+        border: none;
+    }
+    button, select {
+        text-transform: none;
+        background-color: black;
+        border: none;
+        color: white;
+    }
+}

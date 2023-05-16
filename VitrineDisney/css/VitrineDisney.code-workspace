@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../html-samassa-lassana 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "VitrineDisney"
+	}
+}
